@@ -1,0 +1,13 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Mar  9 13:55:36 2022"
+  rime_version: 1.5.3
+patch:
+  style:
+    color_scheme: aqua
+    horizontal: true      # 候選橫排
+    inline_preedit: true  # 內嵌編碼（僅支持 TSF）
+    display_tray_icon: true  # 顯示托盤圖標
+    font_point: 12

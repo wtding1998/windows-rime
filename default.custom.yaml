@@ -1,0 +1,14 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Mar  9 13:42:17 2022"
+  rime_version: 1.5.3
+patch:
+  "menu/page_size": 6
+  schema_list:
+    - {schema: luna_pinyin_simp}
+    - {schema: luna_pinyin}
+  "key_binder/bindings":
+    - { when: paging, accept: 8, send: Page_Up }
+    - { when: has_menu, accept: 7, send: Page_Down }
